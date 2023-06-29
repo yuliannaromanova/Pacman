@@ -1,12 +1,13 @@
-#crop{
+.crop{
     width: 226px;
     height: 248px;
     background-image: url(spritesheet.png);
     background-position: 0px 0px;
     z-index: 1;
     position: relative;
+    margin: 20px;
 }
-#pacman{
+.pacman{
     width: 15px;
     height: 15px;
     background-image: url(spritesheet.png);
@@ -15,4 +16,6 @@
     left: 44px;
     z-index: 2;
     position: absolute;
+    transform: rotate(0deg);
+    transition: 0.2s;
 }
